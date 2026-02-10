@@ -9,7 +9,7 @@ public class NovelaRomantica extends Libro implements Prestable{
     private LocalDate fechaDevolucion;
 
     public NovelaRomantica(String autor,String titulo,boolean finalFeliz){
-        super(autor,titulo,Genero.NovelaNegra);
+        super(autor,titulo,Genero.NovelaRomantica);
         this.finalFeliz = finalFeliz;
     }
 
